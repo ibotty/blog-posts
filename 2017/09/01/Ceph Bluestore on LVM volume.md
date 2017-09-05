@@ -59,7 +59,7 @@ bluestore block path = /dev/<vg>/<ceph-lv>
 
 The following steps create and start the OSD.
 
-```
+```shell
 > mkdir /var/lib/ceph/osd/ceph-<N>
 > ceph-osd --mkfs --mkkey -i <N>
 > ceph auth add osd.<N> osd 'allow *' mon 'allow rwx' -i /var/lib/ceph/osd/ceph-<N>/keyring
