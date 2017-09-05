@@ -13,7 +13,7 @@ They certainly won't work with older releases.
 
 > Sometimes small, contained, non optimal performing, is just the right tool :)
 
- - sep on ceph's irc channel
+-- <cite>sep on ceph's irc channel</cite>
 
 When running a hyperconverged infrastructure, i.e. colocating your cluster's computing and storage nodes, you might not always have a separate disk for Ceph on every node.
 I like using LVM for that use case.
